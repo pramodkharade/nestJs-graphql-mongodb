@@ -14,6 +14,9 @@ export class LessonService {
     return this.lessonRespository.findOne({ where: { id } });
   }
 
+  async getLessons(): Promise<Lesson[]> {
+    return this.lessonRespository.find();
+  }
   async createLesson(createLessonInput: CreateLessonInput): Promise<Lesson> {
     const { name, startDate, endDate } = createLessonInput;
     const lesson = this.lessonRespository.create({
