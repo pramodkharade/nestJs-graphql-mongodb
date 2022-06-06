@@ -26,12 +26,16 @@
     "@nestjs/core": "^8.0.0",
     "@nestjs/graphql": "^10.0.15",
     "@nestjs/platform-express": "^8.0.0",
+    "@nestjs/typeorm": "^8.1.2",
+    "@types/mongodb": "^4.0.7",
     "apollo-server-express": "^3.8.2",
     "graphql": "^14.6.0",
     "graphql-tools": "^8.2.11",
+    "mongodb": "^4.6.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
-    "rxjs": "^7.2.0"
+    "rxjs": "^7.2.0",
+    "typeorm": "^0.3.6"
   },
   "devDependencies": {
     "@nestjs/cli": "^8.0.0",
