@@ -65,6 +65,9 @@ npm i typeorm @nestjs/typeorm mongodb @types/mongodb uuid @types/uuid
 # 
 npm install @nestjs/apollo
 
+# 
+npm i @nestjs/class-validator@0.13.1 class-validator class-transformer
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
