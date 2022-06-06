@@ -61,7 +61,7 @@ $ npm run test:cov
 # used NPM Libs:
 npm i graphql graphql-tools apollo-server-express @nestjs/graphql
 # 
-npm i typeorm @nestjs/typeorm mongodb @types/mongodb
+npm i typeorm @nestjs/typeorm mongodb @types/mongodb uuid @types/uuid
 # 
 npm install @nestjs/apollo
 
