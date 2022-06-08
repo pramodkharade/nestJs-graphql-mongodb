@@ -18,13 +18,13 @@ export class LessonService {
     return this.lessonRespository.find();
   }
   async createLesson(createLessonInput: CreateLessonInput): Promise<Lesson> {
-    const { name, startDate, endDate } = createLessonInput;
+    const { name, startDate, endDate, students } = createLessonInput;
     const lesson = this.lessonRespository.create({
       id: uuid(),
       name,
       startDate,
       endDate,
-      students: [],
+      students,
     });
     return this.lessonRespository.save(lesson);
   }
