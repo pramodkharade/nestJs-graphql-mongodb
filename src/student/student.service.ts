@@ -13,6 +13,10 @@ export class StudentService {
   async getStudents(): Promise<Student[]> {
     return this.studentRepository.find();
   }
+
+  async getStudent(id: string): Promise<Student> {
+    return this.studentRepository.findOne({ where: { id } });
+  }
   async createStudent(
     createStudentInput: CreateStudentInput,
   ): Promise<Student> {
